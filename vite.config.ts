@@ -11,4 +11,13 @@ export default defineConfig({
     },
   },
   plugins: [reactRouter(), tsconfigPaths()],
+  build: {
+    rollupOptions: {
+      output: {
+        assetFileNames: "assets/[name][extname]",
+        chunkFileNames: "assets/[name].js",
+        entryFileNames: "assets/[name].js",
+      },
+    },
+  },
 });

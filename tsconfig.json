@@ -23,6 +23,10 @@
     "noEmit": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "strict": true
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "noPropertyAccessFromIndexSignature": true
   }
 }
